@@ -24,7 +24,7 @@ function gotPoses(results)
         noseX=results[0].pose.nose.x;
         noseY=results[0].pose.nose.y;
         leftWristX=results[0].pose.leftWrist.x;
-        rigthWristX=results[0].pose.leftWrist.y;
+        rigthWristX=results[0].pose.rigthWrist.y;
         difference=floor(leftWristX-rigthWristX);
         console.log("NarizX="+noseX+"\nNarizY"+noseY);
         console.log("Tamaño"+difference);
